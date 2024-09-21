@@ -1,0 +1,307 @@
+*{
+  /* to remove default values*/
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body{
+  overflow-x: hidden;/* x axis scrolling is hide*/
+  /*background-color: rgb(4, 4, 234);*/
+}
+
+.divv{
+ /* background-color: rgba(88, 165, 209, 0.558);*/
+ background-image: url('./images/2150895681.jpg');
+ backdrop-filter: brightness(10%);
+ height: 840px;
+}
+.div{
+  /*background-image: url('./images/maldives-1993704_1920.jpg');*/
+  height: 800px;
+}
+.div1{
+  width: 300px;
+  margin-left: 200px;
+ padding: 50px;
+  /*display: flex;*/
+}
+.div1 h1{
+  color: white;
+  font-size: px;
+}
+.div2{
+  display: flex;
+justify-content:space-around;
+margin-top: -5px;
+margin-left: 600px;
+}
+.navbar{
+  margin-top: -150px;
+}
+.nav-link{
+  color: white;
+  font-size: 25px;
+  font-weight: 100px;
+}
+.dropdown-item:hover{
+background-color: rgb(18, 142, 243);
+color: white;
+}
+.div3{
+  margin-top:100px ;
+  /*background-color: rgba(199, 208, 31, 0.703);
+  */width:800px;
+  height: 60px;
+  margin-left: 350px;
+  /*border-style:dashed;*/
+  margin-top: 50px;
+}
+.div3btn {
+  margin-left: 350px;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  font-weight:900;
+}
+.div3btn:hover{
+  letter-spacing:6px;
+}
+
+.div3a{
+  margin-top: 50px;
+}
+.div3a h1{
+  font-size:  4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  
+}
+input[type=text] {
+ /* width: 100%;
+  box-sizing:border-box;
+  border: 5px solid #ccc;*/
+  border-radius: 10px;
+  font-size: 16px;
+  /*background-color: white;*/
+  background-image: url('./images/searchicon.png');
+  background-size: 30px;
+  background-position: 5px 5px; 
+  background-repeat: no-repeat;
+  padding: 5px 20px 12px 40px;
+  width:300px;
+  opacity: 95%;
+}
+.searchbar{
+  /*width: 150px;*/
+  height: 50px;
+  border-radius: 10px;
+  border-color: white;
+}
+.datebar{
+  opacity: 95%;
+  width: 175px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: white;
+  color: rgb(79, 76, 76);
+ 
+}
+.selectbar{
+  opacity: 95%;
+  width: 175px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: white;
+  color: rgb(89, 88, 88);
+  
+}
+.div4{
+  background-color: rgba(4, 81, 109, 0.444);
+  color: white;
+  display: flex;
+ /* justify-content:space-around;*/
+  margin-top: 100px;
+  height: 150px;
+  transition: 0.6s;
+
+}
+.offerheader{
+  animation: offerheader 1s steps(1,end) infinite;
+ /* color: yellow;*/
+}
+@keyframes offerheader{
+  0% {
+    opacity: 1;
+    color: yellow;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    
+  }
+}
+.div5{
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+
+/*@media(min-width:992px){
+  ul{
+      display: flex;
+      align-items: center;
+  }
+
+}*/
+
+
+@media(max-width:600px){
+  .div3btn{
+      margin-left: -200px;
+  }
+  .div4 h2{
+    font-size: 15px;
+    
+  }
+  .destinationheader h1{
+    font-size: 30px;
+    margin-top: 200px;
+  }
+
+}
+
+
+
+/******destination*************/
+
+.destinationheader{
+text-align: center;
+}
+/*.destinationcards{
+
+}*/
+
+
+/****offers*******/
+
+.offers{
+  background-image: linear-gradient(to top left,rgb(0, 34, 255),rgba(51, 254, 244, 0.89));
+  
+}
+.offerbadge{
+  animation: offerheader 1s steps(1,end) infinite;
+}
+@keyframes offerbadge{
+  0% {
+    opacity: 1;
+    
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    
+  }
+}
+
+
+/****bookings****/
+.form-wrap{
+  width: 400px;
+ /* height: 500px;*/
+  margin-left: 200px;
+  margin-top: 200px;
+  background-color: rgba(2, 85, 115, 0.462);
+ color: white;
+}
+.booking{
+  background-image: url('https://images.ctfassets.net/i3kf1olze1gn/3SMf6PdtYk4Hf8YfaOi75c/12148d870e520297c77bd41e0bf2c65f/Varenna_lake_como.jpg');
+ /* background-image:url('https://www.qatarairways.com/content/dam/images/renditions/horizontal-2/destinations/france/paris/h2-paris-eiffel-tour-qrh.jpg');
+/*background-image: url('https://www.qatarairways.com/content/dam/images/renditions/horizontal-2/campaigns/global/destinations-promo/h2-europe-spring.jpg');
+/*background-image: url('https://www.travelzoo.com/images/tzoo.13733.0.766502.munich-christmas-market.jpg');
+ /* background-image: url('https://premiotravels.com/wp-content/uploads/2022/10/New-Year-5-Days-Thailand-Holiday-Travel-Tour-Package.jpg');
+ /* background-image: url('https://www.travelandleisure.com/thmb/9WFBvvcWb6iprVAnByZKvCTs_9E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-header-hallstatt-austria-BEAUTEURO0323-640d96b8cfd141c9af4582fd1f11bb42.jpg');
+/*background-image: url('./images/vecteezy_yellow-suitcase-with-sun-glasses-hat-and-camera-on-pastel_6792559.jpg');
+*/
+opacity: 95%;
+ display: flex;
+}
+
+.div6{
+width: 400px;
+height: 500px;
+margin-left: 200px;
+color:white;
+background-color: rgba(2, 85, 115, 0.462);
+}
+
+/**************subscribe*********/
+
+#subscribe{
+  color: white;
+  background-color:rgba(3, 152, 226, 0.866);
+}
+.sub-heading{
+  margin-left: 200px;
+}
+.form-inline{
+  margin-left: 400px;
+}
+
+.form-group{
+  width: 25em;
+  margin-left: -50px;
+
+}
+/******footer*****/
+#travel-footer{
+  background-color:rgba(23, 244, 244, 0.953);
+}
+.pull-right{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    
+}
+.pull-left small{
+  margin-left: 50px;
+}
+
+.iconf:hover{
+  color: azure;
+  animation: shake 0.75s;
+}
+@keyframes shake{
+  10%{
+      transform: rotate(15deg);
+  }
+  20%{
+      transform: rotate(-15deg); 
+  }
+  30%{
+      transform: rotate(15deg);
+  }
+  40%{
+      transform: rotate(-15deg);
+  }
+}
+
+
+
+
+.uparrow{
+  float: right;
+
+  /*background-image: linear-gradient(to top,orange,yellow);
+  */
+  margin:-50px -10px 0px 0px;
+}
+
+html{
+  scroll-behavior: smooth;/* for the smooth scrolling*/
+}
